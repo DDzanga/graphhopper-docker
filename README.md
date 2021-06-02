@@ -1,4 +1,4 @@
-# Israel Hiking Map Graphopper router using Docker
+# Graphopper router using Docker
 
 ## Installation
 
