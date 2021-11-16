@@ -1,7 +1,7 @@
 version: '3.4'
 services:
   graphhopper:
-    image: israelhikingmap/graphhopper:latest
+    image: gispo/graphhopper:latest
     volumes:
       - ./data:/data
       - ./:/usr/src/app
