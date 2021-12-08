@@ -10,3 +10,5 @@ services:
     entrypoint: ./graphhopper.sh -c /usr/src/app/gh-config.yml -o /data/default-gh/
     command: web -i central-america_jamaica.pbf
     restart: always
+    environment:
+      - JVM_OPTS=-Xmx12g -Xms12g
