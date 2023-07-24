@@ -10,7 +10,7 @@
 
 Navigate to the folder you just cloned and run `docker-compose up -d`
 
-By default this repository sets up routing for Jamaica. You can those by editing the file names on the `gh-update.bat` file and the `docker-compose.yml` file accordingly. The default settings use car, foot, biking and hiking as travel modes. Change those in the `gh-config.yml` file.
+By default this repository sets up routing for Jamaica. You can those by editing the file names on the `gh-update.bat` file and the `docker-compose.yml` file accordingly. By doing so, you can explore data from various regions using their corresponding .osm.pbf files. This data will then be utilized to generate a routing network for those specific regions. For downloadable data related to different areas, you can find relevant resources for example at http://download.geofabrik.de/. The default settings use car, foot, biking and hiking as travel modes. Change those in the `gh-config.yml` file.
 
 
 ## Updating the routing data 🌎🌍🌏
